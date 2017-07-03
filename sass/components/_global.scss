@@ -343,7 +343,11 @@ ul.staggered-list li {
   padding-top: 20px;
   color: $footer-font-color;
   background-color: $footer-bg-color;
-
+  //is posible to define var with a page-footer color
+  a {
+    color: $footer-font-color !important;
+  }
+  
   .footer-copyright {
     overflow: hidden;
     min-height: 50px;
@@ -352,6 +356,11 @@ ul.staggered-list li {
     padding: 10px 0px;
     color: $footer-copyright-font-color;
     background-color: $footer-copyright-bg-color;
+    //is posible to define var with a footer-copyright color
+    a {
+      color: $footer-copyright-font-color !important;
+    }
+    
     @extend .light;
   }
 }
